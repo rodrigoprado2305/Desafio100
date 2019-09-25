@@ -1,0 +1,123 @@
+object FormMenu2: TFormMenu2
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 400
+  ClientWidth = 250
+  StyleBook = FormLogin.AndroidVapor
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 250.000000000000000000
+    Size.Height = 352.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Button2
+        Row = 1
+      end
+      item
+        Column = 0
+        Control = Button3
+        Row = 2
+      end
+      item
+        Column = 0
+        Control = Button4
+        Row = 3
+      end
+      item
+        Column = 0
+        Control = Button1
+        Row = 0
+      end>
+    RowCollection = <
+      item
+        Value = 24.981414801403130000
+      end
+      item
+        Value = 24.986707290983900000
+      end
+      item
+        Value = 24.999990261929140000
+      end
+      item
+        Value = 25.031887645683830000
+      end
+      item
+        SizeStyle = Auto
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object Button2: TButton
+      Anchors = []
+      Position.X = 20.000000000000000000
+      Position.Y = 101.911178588867200000
+      Size.Width = 210.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Portugu'#234's'
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Anchors = []
+      Position.X = 20.000000000000000000
+      Position.Y = 189.887771606445300000
+      Size.Width = 210.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Geografia'
+      OnClick = Button3Click
+    end
+    object Button4: TButton
+      Anchors = []
+      Position.X = 20.000000000000000000
+      Position.Y = 277.943878173828100000
+      Size.Width = 210.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Conhecimentos Gerais'
+      OnClick = Button4Click
+    end
+    object Button1: TButton
+      Anchors = []
+      Position.X = 20.000000000000000000
+      Position.Y = 13.967288970947270000
+      Size.Width = 210.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Matem'#225'tica'
+      OnClick = Button1Click
+    end
+  end
+  object ToolBar1: TToolBar
+    Anchors = []
+    Size.Width = 250.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object SpeedButton1: TSpeedButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'replytoolbutton'
+      Text = 'SpeedButton1'
+      OnClick = SpeedButton1Click
+    end
+  end
+end

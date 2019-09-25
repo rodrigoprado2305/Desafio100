@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/02 22:30:56.000.929,=C:\Users\rod_c\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/10 22:04:57.000.849,=C:\Users\rod_c\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/10 22:05:37.000.772,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\FrmLogin.pas</Transaction>
+    <Transaction>2019/01/10 22:05:57.000.571,C:\Users\rod_c\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Desafio100.dproj</Transaction>
+    <Transaction>2019/01/10 22:09:12.000.481,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\FrmLogin.pas=</Transaction>
+    <Transaction>2019/01/10 22:10:49.000.030,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\frmInfo.pas</Transaction>
+    <Transaction>2019/01/10 22:10:49.000.170,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmLogin.pas</Transaction>
+    <Transaction>2019/01/10 22:10:52.000.994,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmMenu2.pas</Transaction>
+    <Transaction>2019/01/10 22:10:52.000.853,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmMenu.pas</Transaction>
+    <Transaction>2019/01/10 22:10:53.000.289,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmPontuacao.pas</Transaction>
+    <Transaction>2019/01/10 22:10:53.000.135,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmMenu3.pas</Transaction>
+    <Transaction>2019/01/10 22:10:56.000.031,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmPrincipal.pas</Transaction>
+    <Transaction>2019/01/10 22:38:37.000.050,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Disciplina01.ini</Transaction>
+    <Transaction>2019/01/10 22:38:37.000.082,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Disciplina03.ini</Transaction>
+    <Transaction>2019/01/10 22:38:37.000.097,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Disciplina04.ini</Transaction>
+    <Transaction>2019/01/10 22:38:37.000.066,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Disciplina02.ini</Transaction>
+    <Transaction>2019/01/13 18:00:42.000.741,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.pas</Transaction>
+    <Transaction>2019/01/13 18:02:15.000.536,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.pas=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmErro.pas</Transaction>
+    <Transaction>2019/01/13 18:02:15.000.536,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.fmx=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmErro.fmx</Transaction>
+    <Transaction>2019/01/20 11:58:02.000.838,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.pas</Transaction>
+    <Transaction>2019/01/20 12:00:12.000.678,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmWeb.pas</Transaction>
+    <Transaction>2019/01/20 12:21:44.000.313,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.pas</Transaction>
+    <Transaction>2019/01/20 12:21:50.000.973,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.pas</Transaction>
+    <Transaction>2019/01/20 12:21:59.000.525,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.fmx=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmSobre.fmx</Transaction>
+    <Transaction>2019/01/20 12:21:59.000.525,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.pas=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmSobre.pas</Transaction>
+    <Transaction>2019/02/10 09:23:19.000.804,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.pas</Transaction>
+    <Transaction>2019/02/10 09:24:04.000.929,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.pas</Transaction>
+    <Transaction>2019/02/10 09:24:44.000.015,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmErro.pas=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmTestesAnuncios.pas</Transaction>
+    <Transaction>2019/02/10 09:24:44.000.015,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmErro.fmx=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmTestesAnuncios.fmx</Transaction>
+    <Transaction>2019/02/10 09:25:11.000.180,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmTestesAnuncios.pas=</Transaction>
+    <Transaction>2019/02/10 09:25:19.000.392,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmErro.pas</Transaction>
+    <Transaction>2019/02/10 09:25:36.000.550,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmErro.pas=</Transaction>
+    <Transaction>2019/02/10 09:26:49.000.156,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmTestesAnuncios.pas</Transaction>
+    <Transaction>2019/02/10 09:27:11.000.068,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmErro.pas</Transaction>
+    <Transaction>2019/02/10 10:11:23.000.372,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.pas</Transaction>
+    <Transaction>2019/03/18 20:35:41.000.058,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmMenu2.pas=</Transaction>
+    <Transaction>2019/03/18 20:35:48.000.105,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmMenu3.pas=</Transaction>
+    <Transaction>2019/03/18 20:36:03.000.797,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Fontes\FrmTestesAnuncios.pas=</Transaction>
+    <Transaction>2019/06/14 10:16:59.000.187,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\ok.mp3</Transaction>
+    <Transaction>2019/06/14 11:24:51.000.015,D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\ok.mp3=</Transaction>
+    <Transaction>2019/06/14 13:08:59.000.918,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\Unit1.pas</Transaction>
+    <Transaction>2019/06/14 20:35:36.000.250,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\ok.mp3</Transaction>
+    <Transaction>2019/06/14 20:35:36.000.235,=D:\Desenvolvimento\Delphi\trunk\Projeto Educando\Projeto Mobile\Desafio100\erro.mp3</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0048566689"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>AppStore</BT_BuildType>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-base.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-identifier.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-lite.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-base.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-basement.16.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-gass.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-identity.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-maps.16.1.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-base.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-sdk-api.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-stats.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tagmanager-v4-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tasks.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-wallet.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-analytics.16.4.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-common.16.1.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid-interop.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid.17.1.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-measurement-connector.17.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-messaging.17.5.0.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="Fontes"/>
+    <File Path="Fontes\FrmErro.pas"/>
+    <File Path="Fontes\FrmErro.fmx"/>
+    <File Path="Fontes\frmInfo.pas"/>
+    <File Path="Fontes\frmInfo.fmx"/>
+    <File Path="Fontes\FrmLogin.pas"/>
+    <File Path="Fontes\FrmLogin.fmx"/>
+    <File Path="Fontes\FrmMenu.pas"/>
+    <File Path="Fontes\FrmMenu.fmx"/>
+    <File Path="Fontes\FrmPontuacao.pas"/>
+    <File Path="Fontes\FrmPontuacao.fmx"/>
+    <File Path="Fontes\FrmPrincipal.pas"/>
+    <File Path="Fontes\FrmPrincipal.fmx"/>
+    <File Path="Fontes\FrmSobre.pas"/>
+    <File Path="Fontes\FrmSobre.fmx"/>
+    <File Path="Fontes\FrmWeb.pas"/>
+    <File Path="Fontes\FrmWeb.fmx"/>
+    <File Path="Disciplina01.ini"/>
+    <File Path="Disciplina02.ini"/>
+    <File Path="Disciplina03.ini"/>
+    <File Path="Disciplina04.ini"/>
+    <File Path="erro.mp3"/>
+    <File Path="ok.mp3"/>
+  </ProjectSortOrder>
+</BorlandProject>

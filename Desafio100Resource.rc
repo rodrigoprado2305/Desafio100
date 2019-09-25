@@ -1,0 +1,6 @@
+rsrcDisc01 RCDATA "Disciplina01.ini"
+rsrcDisc02 RCDATA "Disciplina02.ini"
+rsrcDisc03 RCDATA "Disciplina03.ini"
+rsrcDisc04 RCDATA "Disciplina04.ini"
+rsrcErro RCDATA "erro.mp3"
+rsrcOk RCDATA "ok.mp3"
