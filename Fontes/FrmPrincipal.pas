@@ -65,28 +65,6 @@ implementation
 uses
   frmInfo, FrmPontuacao, FrmLogin, FrmErro, FrmMenu, System.IOUtils;
 
-{
-procedure TForm1.Button2Click(Sender: TObject);
-var
-  IniMemx: TMemIniFile;
-  lstDadosx:  TStringList;
-begin
- { lstDadosx := TStringList.Create;
-  IniMemx := TMemIniFile.Create('');
-  //lstStream := TStringStream.Create('',TEncoding.UTF8);
-  try
-    lstDadosx.LoadFromStream(TResourceStream.Create(HInstance,'rsrcDados',RT_RCDATA),TEncoding.UTF8);
-    IniMemx.SetStrings(lstDadosx);
-    lblTitulo.Text := IniMemx.ReadString('Config','NomeJogo','');
-    lblPergunta.Text := IniMemx.ReadString('Jogo','PERGUNTA1','');
-    mmoTexto.Lines.Text := IniMemx.ReadString('Jogo','TEXTO1','');
-  finally
-    lstDadosx.Free;
-    IniMemx.Free;
-  end;
-end;
-}
-
 procedure TFormPrincipal.reset(iFase: integer);
 begin
   if iFase > 0 then
@@ -225,15 +203,9 @@ end;
 procedure TFormPrincipal.Timer1Timer(Sender: TObject);
 begin
   if pResposta[0] = pResposta[1] then
-  begin
-    //tocaSom;
-    proximaFase;
-  end
+    proximaFase
   else
-  begin
-    //tocaSom;
     FormErro.Show;
-  end;
 
   timer1.Enabled := False;
   btnResp01.Enabled := True;
@@ -266,8 +238,6 @@ begin
     begin
       ResStream := TResourceStream.Create(HInstance, sArqNome, RT_RCDATA);
       try
-        //TmpFile := TPath.Combine(TPath.GetTempPath, 'ok.mp3');
-        //system.IOUtils.TPath.GetDownloadsPath + '/screenshot_temp.jpg'  //System.IOUtils;
         TmpFile := TPath.Combine(System.IOUtils.TPath.GetDownloadsPath, 'erro.mp3');
         ResStream.Position := 0;
         ResStream.SaveToFile(TmpFile);

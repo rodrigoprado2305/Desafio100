@@ -52,12 +52,6 @@ uses
 
 procedure TFormLogin.btnAcessarClick(Sender: TObject);
 begin
-  {showmessage('GetHomePath: '+ system.IOUtils.TPath.GetHomePath); // /data/user/0/com.rodrigoprado.Desafio100/files
-  showmessage('GetHomePath2: '+ GetHomePath); // /data/user/0/com.rodrigoprado.Desafio100/files
-  //showmessage('GetDownloadsPath: '+ system.IOUtils.TPath.GetDownloadsPath); // /storage/emulated/0/Android/data/com.rodrigoprado.Desafio100/files/Download
-//showmessage('GetShareddocumentsPath: '+ system.IOUtils.TPath.GetShareddocumentsPath()); // /storage/emulated/0/Documents
-  //lst.SaveToFile(system.IOUtils.TPath.GetShareddocumentsPath() + '/testshared.txt');
-             }
   if Trim(edtJogador.Text) = '' then
   begin
     showmessage('Informe o nome do jogador para continuar!');

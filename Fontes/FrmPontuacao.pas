@@ -44,13 +44,11 @@ var
 implementation
 
 uses
-{$IFDEF ANDROID}
   FMX.Helpers.Android, Androidapi.Jni.GraphicsContentViewText,
   Androidapi.Jni.Net, Androidapi.Jni.JavaTypes, idUri, Androidapi.Jni,
   Androidapi.JNIBridge, Androidapi.Helpers,
   FMX.Platform.Android, AndroidApi.Jni.App, AndroidAPI.jni.OS,
-{$ENDIF}
-   frmLogin, frmPrincipal,System.IOUtils, FrmMenu;
+  frmLogin, frmPrincipal,System.IOUtils, FrmMenu;
 
 {$R *.fmx}
 
@@ -206,12 +204,9 @@ end;    }
 
 procedure TFormPontuacao.btnCompartilharClick(Sender: TObject);
 var
-{$IFDEF ANDROID}
-  IntentWhats : JIntent;
   IntentWhatsApp: JIntent;
   FileUri: Jnet_Uri;
   lst: JArrayList;
-{$ENDIF}
   img: TBitmap;
   sMensagem: String;
 begin
@@ -229,7 +224,6 @@ begin
      end;
   end;
 
-  {$IFDEF ANDROID}
   lst:= TJArrayList.Create;
 
   FileUri := TJNet_Uri.JavaClass.fromFile(TJFile.JavaClass.init(StringToJString(system.IOUtils.TPath.GetDownloadsPath + '/screenshot_temp.jpg')));
@@ -244,8 +238,8 @@ begin
   IntentWhatsApp.putParcelableArrayListExtra(TJIntent.JavaClass.EXTRA_STREAM,lst);
   IntentWhatsApp.setPackage(StringToJString('com.whatsapp'));
 
-  SharedActivity.startActivity(IntentWhatsApp);
-  {$ENDIF}
+  //SharedActivity.startActivity(IntentWhatsApp); // is deprecated
+  TAndroidHelper.Activity.startActivity(IntentWhatsApp);
 end;
 
 procedure TFormPontuacao.btnSairClick(Sender: TObject);

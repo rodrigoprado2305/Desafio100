@@ -36,7 +36,6 @@ type
     lblTitulo: TLabel;
     imgDisciplinas: TImageList;
     procedure btnVoltarClick(Sender: TObject);
-    procedure FormShow(Sender: TObject);
     procedure imgDisciplina01Click(Sender: TObject);
   private
     { Private declarations }
@@ -54,25 +53,6 @@ uses frmPrincipal, FrmLogin;
 
 {$R *.fmx}
 
-procedure TFormMenu.FormShow(Sender: TObject);
-begin
- { imgDisciplina01.Bitmap.Assign(
-    imgDisciplinas.Bitmap(imgDisciplina01.Size.Size, 0)
-  );
-
-  imgDisciplina02.Bitmap.Assign(
-    imgDisciplinas.Bitmap(imgDisciplina02.Size.Size, 1)
-  );
-
-  imgDisciplina03.Bitmap.Assign(
-    imgDisciplinas.Bitmap(imgDisciplina03.Size.Size, 2)
-  );
-
-  imgDisciplina04.Bitmap.Assign(
-    imgDisciplinas.Bitmap(imgDisciplina04.Size.Size, 3)
-  );  }
-end;
-
 procedure TFormMenu.imgDisciplina01Click(Sender: TObject);
 begin
   iniciarJogo(TImage(Sender).Tag);
@@ -82,11 +62,6 @@ procedure TFormMenu.iniciarJogo(iDisciplina: Integer);
 begin
   FormPrincipal.iDisciplina := iDisciplina;
   FormPrincipal.Show;
-
-    //iniciarJogo(1);
-      //iniciarJogo(2);
-        //iniciarJogo(3);
-          //iniciarJogo(4);
 end;
 
 procedure TFormMenu.btnVoltarClick(Sender: TObject);

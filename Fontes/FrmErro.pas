@@ -50,14 +50,11 @@ type
     procedure Timer1Timer(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure btnVideoClick(Sender: TObject);
-    procedure lblLembreteClick(Sender: TObject);
   private
     { Private declarations }
     //iTempo: integer;
-    {$IFDEF ANDROID}
     LAdViewListener: TMyAdViewListener;
     FInterStitial: JInterstitialAd;
-    {$ENDIF}
     procedure anuncioPremiado;
   public
     { Public declarations }
@@ -73,13 +70,10 @@ uses FrmPrincipal, FrmLogin;
 {$R *.fmx}
 
 procedure TFormErro.anuncioPremiado;
-  {$IFDEF ANDROID}
-  var
+var
   LADRequestBuilder: JAdRequest_Builder;
   LadRequest: JAdRequest;
-  {$ENDIF}
 begin
-  {$IFDEF ANDROID}
   LADRequestBuilder := TJAdRequest_Builder.Create;                                           // deixar o getdeviceID para modo Teste
   LADRequestBuilder.addTestDevice(StringToJString('ca-app-pub-9350000386173480~1001141581'));//(MainActivity.getDeviceID);
   LadRequest := LADRequestBuilder.build();
@@ -91,9 +85,6 @@ begin
         (LAdViewListener));
       FInterStitial.loadAd(LadRequest);
     end);
-  //showmessage('A cada vídeo assistido você ganha uma nova chance');
-  //iTempo := 0;
-  {$ENDIF}
 
   Timer1.Enabled := True;
 end;
@@ -113,30 +104,22 @@ end;
 
 procedure TFormErro.Timer1Timer(Sender: TObject);
 begin
-  //Inc(iTempo);
-  //btnRecomecar.Text := inttostr(iTempo);
-  //if iTempo = 10 then
-  //begin
-    timer1.Enabled := False;
-    btnRecomecar.Enabled := True;
-    btnVideo.Enabled := True;
-    FormPrincipal.reset(10+1); //se vc quer voltar duas fase, jogue 3, se for 10, jogue 11
-    close;
-  //end;
+  timer1.Enabled := False;
+  btnRecomecar.Enabled := True;
+  btnVideo.Enabled := True;
+  FormPrincipal.reset(10+1); //se vc quer voltar duas fase, jogue 3, se for 10, jogue 11
+  close;
 end;
 
 { TMyAdViewListener }
 
 procedure TFormErro.FormCreate(Sender: TObject);
 begin
-  {$IFDEF ANDROID}
   FInterStitial := TJInterstitialAd.JavaClass.init(MainActivity);
   FInterStitial.setAdUnitId
     //(StringToJString('ca-app-pub-9350000386173480/8402629629')); // Rewarded
     (StringToJString('ca-app-pub-9350000386173480/6705570423')); // InterStitial
    //(StringToJString('ca-app-pub-9350000386173480~1001141581')); // InterStitial
-
-  {$ENDIF}
 end;
 
 procedure TFormErro.FormShow(Sender: TObject);
@@ -144,12 +127,6 @@ begin
   Timer1.Enabled := False;
 end;
 
-procedure TFormErro.lblLembreteClick(Sender: TObject);
-begin
-
-end;
-
-{$IFDEF ANDROID}
 constructor TMyAdViewListener.Create(AAD: JInterstitialAd);
 begin
   inherited Create;
@@ -180,8 +157,6 @@ procedure TMyAdViewListener.onAdOpened;
 begin
 //
 end;
-
-{$ENDIF}
 
 end.
 
