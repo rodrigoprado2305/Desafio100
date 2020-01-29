@@ -4,8 +4,8 @@
         <ProjectFileVersion>12</ProjectFileVersion>
     </ProjectExtensions>
     <PropertyGroup>
-        <DeviceId Condition="'$(Platform)'=='Android'"/>
-        <DeviceId Condition="'$(Platform)'=='Android64'"/>
+        <DeviceId Condition="'$(Platform)'=='Android'">0060853145</DeviceId>
+        <DeviceId Condition="'$(Platform)'=='Android64'">0060853145</DeviceId>
     </PropertyGroup>
     <ItemGroup Condition="'$(Platform)'=='iOSDevice64'"/>
     <ItemGroup Condition="'$(Platform)'=='Win64'"/>
@@ -134,10 +134,10 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="Android\Release\AndroidManifest.xml" Condition="'$(Config)'=='Release'">
-            <RemoteDir>Desafio100\</RemoteDir>
-            <RemoteName>AndroidManifest.xml</RemoteName>
-            <DeployClass>ProjectAndroidManifest</DeployClass>
+        <DeployFile Include="D:\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_144x144.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>Desafio100\res\drawable-xxhdpi\</RemoteDir>
+            <RemoteName>ic_launcher.png</RemoteName>
+            <DeployClass>Android_LauncherIcon144</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
@@ -161,7 +161,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_36x36.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_36x36.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-ldpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon36</DeployClass>
@@ -215,7 +215,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_96x96.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_96x96.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-xhdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon96</DeployClass>
@@ -278,7 +278,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_144x144.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_144x144.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-xxhdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon144</DeployClass>
@@ -323,7 +323,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_426x320x.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\426x320.fw.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-small\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
             <DeployClass>Android_SplashImage426</DeployClass>
@@ -369,7 +369,7 @@
             <Overwrite>True</Overwrite>
             <Required>True</Required>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_48x48.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_48x48.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-mdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon48</DeployClass>
@@ -424,7 +424,7 @@
             <Overwrite>True</Overwrite>
             <Required>True</Required>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_960x720x.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\960x720.fw.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-xlarge\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
             <DeployClass>Android_SplashImage960</DeployClass>
@@ -469,7 +469,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_72x72.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_72x72.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-hdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon72</DeployClass>
@@ -478,7 +478,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_470x320x.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\470x320.fw.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-normal\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
             <DeployClass>Android_SplashImage470</DeployClass>
@@ -496,28 +496,10 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_640x480x.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\640x480.fw.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-large\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
             <DeployClass>Android_SplashImage640</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
-        <DeployFile Include="D:\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_36x36.png" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>Desafio100\res\drawable-ldpi\</RemoteDir>
-            <RemoteName>ic_launcher.png</RemoteName>
-            <DeployClass>Android_LauncherIcon36</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
-        <DeployFile Include="D:\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_144x144.png" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>Desafio100\res\drawable-xxhdpi\</RemoteDir>
-            <RemoteName>ic_launcher.png</RemoteName>
-            <DeployClass>Android_LauncherIcon144</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
@@ -527,6 +509,24 @@
             <RemoteDir>Desafio100\res\values-v21\</RemoteDir>
             <RemoteName>styles.xml</RemoteName>
             <DeployClass>AndroidSplashStylesV21</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Android\Release\AndroidManifest.xml" Condition="'$(Config)'=='Release'">
+            <RemoteDir>Desafio100\</RemoteDir>
+            <RemoteName>AndroidManifest.xml</RemoteName>
+            <DeployClass>ProjectAndroidManifest</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="D:\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_36x36.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>Desafio100\res\drawable-ldpi\</RemoteDir>
+            <RemoteName>ic_launcher.png</RemoteName>
+            <DeployClass>Android_LauncherIcon36</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
@@ -565,7 +565,7 @@
         </DeployFile>
     </ItemGroup>
     <ItemGroup Condition="'$(Platform)'=='Android64'">
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_640x480x.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\640x480.fw.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-large\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
             <DeployClass>Android_SplashImage640</DeployClass>
@@ -619,7 +619,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_48x48.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_48x48.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-mdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon48</DeployClass>
@@ -682,7 +682,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_36x36.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_36x36.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-ldpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon36</DeployClass>
@@ -700,7 +700,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_960x720x.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\960x720.fw.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-xlarge\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
             <DeployClass>Android_SplashImage960</DeployClass>
@@ -709,7 +709,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_426x320x.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\426x320.fw.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-small\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
             <DeployClass>Android_SplashImage426</DeployClass>
@@ -736,7 +736,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_144x144.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_144x144.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-xxhdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon144</DeployClass>
@@ -745,7 +745,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_96x96.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_96x96.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-xhdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon96</DeployClass>
@@ -754,7 +754,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_470x320x.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\470x320.fw.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-normal\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
             <DeployClass>Android_SplashImage470</DeployClass>
@@ -818,7 +818,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_72x72.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_72x72.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>Desafio100\res\drawable-hdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon72</DeployClass>

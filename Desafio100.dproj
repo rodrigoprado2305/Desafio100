@@ -238,20 +238,20 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Android)'!=''">
         <PF_KeyStore>KeyStore\ChaveDesafio100.keystore</PF_KeyStore>
-        <PF_KeyStorePass>54E50DFE644355A9A301713BD13FE36081DA0549A057979297EE0FB48E3E3CD9DB5DA38CE3371C4DC1B0577DFADEC37ABAF93641045722CE16654589E5A6228C18F0B93AEE8DA890D38B3B46727085CCF7893354</PF_KeyStorePass>
+        <PF_KeyStorePass>851D47C65F9307DBCF287131D12CE37981B20541A00D978D97E60FBE8E6C3C8ADB57A3DEE3551C63C1E35725FAC7C317BA95360204642291163A459CE5B722BEC916F341D513FACCBFF83B46727085CCF7893354</PF_KeyStorePass>
         <PF_AliasKey>desafio100key</PF_AliasKey>
-        <PF_AliasKeyPass>851D47C65F935585A304712AD15DE33A81940557A005978797B40FAA8E6D3CD0DB48A3D6E3181C3AC1B85752FAB3C36BBABA361304262290166845ECE5BA2290C95DF35DD544A890D38B3B46727085CCF7893354</PF_AliasKeyPass>
+        <PF_AliasKeyPass>851D47C65F9307DBCF28E564A401E36281C30502A02B979B97EE0FB48E3E3C9EDB56A384E34A1C6BC1AE577CFA9CC360BAE1367E044B22801678459DE5E522CEC91BF36FD558FAD0BFAFAF11070285CCF7893354</PF_AliasKeyPass>
         <VerInfo_Build>17</VerInfo_Build>
         <VerInfo_Keys>package=com.rodrigoprado.Desafio100;label=$(MSBuildProjectName);versionCode=17;versionName=1.0.1;persistent=False;restoreAnyVersion=False;installLocation=internalOnly;largeHeap=False;theme=TitleBar;hardwareAccelerated=true;apiKey=</VerInfo_Keys>
-        <Android_LauncherIcon36>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_36x36.png</Android_LauncherIcon36>
-        <Android_LauncherIcon48>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_48x48.png</Android_LauncherIcon48>
-        <Android_LauncherIcon72>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_72x72.png</Android_LauncherIcon72>
-        <Android_LauncherIcon96>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_96x96.png</Android_LauncherIcon96>
-        <Android_LauncherIcon144>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_144x144.png</Android_LauncherIcon144>
-        <Android_SplashImage426>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_426x320x.png</Android_SplashImage426>
-        <Android_SplashImage470>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_470x320x.png</Android_SplashImage470>
-        <Android_SplashImage640>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_640x480x.png</Android_SplashImage640>
-        <Android_SplashImage960>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_960x720x.png</Android_SplashImage960>
+        <Android_LauncherIcon36>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_36x36.png</Android_LauncherIcon36>
+        <Android_LauncherIcon48>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_48x48.png</Android_LauncherIcon48>
+        <Android_LauncherIcon72>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_72x72.png</Android_LauncherIcon72>
+        <Android_LauncherIcon96>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_96x96.png</Android_LauncherIcon96>
+        <Android_LauncherIcon144>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_144x144.png</Android_LauncherIcon144>
+        <Android_SplashImage426>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\426x320.fw.png</Android_SplashImage426>
+        <Android_SplashImage470>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\470x320.fw.png</Android_SplashImage470>
+        <Android_SplashImage640>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\640x480.fw.png</Android_SplashImage640>
+        <Android_SplashImage960>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\960x720.fw.png</Android_SplashImage960>
         <AUP_ACCESS_COARSE_LOCATION>false</AUP_ACCESS_COARSE_LOCATION>
         <AUP_ACCESS_FINE_LOCATION>false</AUP_ACCESS_FINE_LOCATION>
         <EL_AdMob>true</EL_AdMob>
@@ -265,20 +265,20 @@
         <CfgParent>Cfg_2</CfgParent>
         <Cfg_2>true</Cfg_2>
         <PF_KeyStore>KeyStore\ChaveDesafio100.keystore</PF_KeyStore>
-        <PF_KeyStorePass>851D0DA36405559EA3757169D17BE32C819C055DA057979397B50FF08E723CD8DB05A38FE3431C4DC1CC572EFA9CC37ABAF83612047422E0166545C2E5F1228CC90AB93AEE8DA890D38B3B46727085CCF7893354</PF_KeyStorePass>
+        <PF_KeyStorePass>851D47C65F9307DBCF28E564A401E36281C30502A02B979B97EE0FB48E3E3C9EDB56A384E34A1C6BC1AE577CFA9CC360BAE1367E044B22801678459DE5E522CEC91BF36FD558FAD0BFAFAF11070285CCF7893354</PF_KeyStorePass>
         <PF_AliasKey>desafio100key</PF_AliasKey>
-        <PF_AliasKeyPass>851D47C65F9307DBA359716CD16AE34E81C60513A04997C197A00FAA8E6C3C8BDB0CA39AE3191C62C1BB5726FAB3C317BAE9365104262291163B45CFE5942290C916F30AD544FACCD38B3B46727085CCF7893354</PF_AliasKeyPass>
-        <VerInfo_Build>19</VerInfo_Build>
-        <VerInfo_Keys>package=com.rodrigoprado.Desafio100;label=$(MSBuildProjectName);versionCode=19;versionName=1.0.1;persistent=False;restoreAnyVersion=False;installLocation=internalOnly;largeHeap=False;theme=TitleBar;hardwareAccelerated=true;apiKey=</VerInfo_Keys>
-        <Android_LauncherIcon36>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_36x36.png</Android_LauncherIcon36>
-        <Android_LauncherIcon48>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_48x48.png</Android_LauncherIcon48>
-        <Android_LauncherIcon72>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_72x72.png</Android_LauncherIcon72>
-        <Android_LauncherIcon96>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_96x96.png</Android_LauncherIcon96>
-        <Android_LauncherIcon144>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_144x144.png</Android_LauncherIcon144>
-        <Android_SplashImage426>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_426x320x.png</Android_SplashImage426>
-        <Android_SplashImage470>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_470x320x.png</Android_SplashImage470>
-        <Android_SplashImage640>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_640x480x.png</Android_SplashImage640>
-        <Android_SplashImage960>D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Desafio 100\desafio100_960x720x.png</Android_SplashImage960>
+        <PF_AliasKeyPass>851D47C65F9307DBCF28E564A401E36281C30502A02B979B97EE0FB48E3E3C9EDB56A384E34A1C6BC1AE577CFA9CC360BAE1367E044B22801678459DE5E522CEC91BF36FD558FAD0BFAFAF11070285CCF7893354</PF_AliasKeyPass>
+        <VerInfo_Build>20</VerInfo_Build>
+        <VerInfo_Keys>package=com.rodrigoprado.Desafio100;label=$(MSBuildProjectName);versionCode=20;versionName=1.0.1;persistent=False;restoreAnyVersion=False;installLocation=internalOnly;largeHeap=False;theme=TitleBar;hardwareAccelerated=true;apiKey=</VerInfo_Keys>
+        <Android_LauncherIcon36>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_36x36.png</Android_LauncherIcon36>
+        <Android_LauncherIcon48>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_48x48.png</Android_LauncherIcon48>
+        <Android_LauncherIcon72>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_72x72.png</Android_LauncherIcon72>
+        <Android_LauncherIcon96>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_96x96.png</Android_LauncherIcon96>
+        <Android_LauncherIcon144>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_144x144.png</Android_LauncherIcon144>
+        <Android_SplashImage426>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\426x320.fw.png</Android_SplashImage426>
+        <Android_SplashImage470>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\470x320.fw.png</Android_SplashImage470>
+        <Android_SplashImage640>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\640x480.fw.png</Android_SplashImage640>
+        <Android_SplashImage960>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\960x720.fw.png</Android_SplashImage960>
         <AUP_ACCESS_COARSE_LOCATION>false</AUP_ACCESS_COARSE_LOCATION>
         <AUP_ACCESS_FINE_LOCATION>false</AUP_ACCESS_FINE_LOCATION>
         <AUP_CALL_PHONE>false</AUP_CALL_PHONE>
@@ -413,9 +413,9 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="$(BDS)\lib\android\release\mips\libnative-activity.so" Configuration="Release" Class="AndroidLibnativeMipsFile">
-                    <Platform Name="Android64">
-                        <RemoteName>libDesafio100.so</RemoteName>
+                <DeployFile LocalName="D:\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_144x144.png" Configuration="Debug" Class="Android_LauncherIcon144">
+                    <Platform Name="Android">
+                        <RemoteName>ic_launcher.png</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -430,21 +430,9 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="$(BDS)\lib\android\release\armeabi-v7a\libnative-activity.so" Configuration="Release" Class="AndroidLibnativeArmeabiv7aFile">
-                    <Platform Name="Android64">
-                        <RemoteName>libDesafio100.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_36x36.png" Configuration="Release" Class="Android_LauncherIcon36">
+                <DeployFile LocalName="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_36x36.png" Configuration="Release" Class="Android_LauncherIcon36">
                     <Platform Name="Android">
                         <RemoteName>ic_launcher.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Android\Debug\styles-v21.xml" Configuration="Debug" Class="AndroidSplashStylesV21">
-                    <Platform Name="Android">
-                        <RemoteName>styles.xml</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -484,6 +472,11 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="$(NDKBasePath)\prebuilt\android-arm\gdbserver\gdbserver" Configuration="Release" Class="AndroidGDBServer">
+                    <Platform Name="Android">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Disciplina01.ini" Configuration="Release" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
@@ -507,7 +500,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_96x96.png" Configuration="Release" Class="Android_LauncherIcon96">
+                <DeployFile LocalName="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_96x96.png" Configuration="Release" Class="Android_LauncherIcon96">
                     <Platform Name="Android">
                         <RemoteName>ic_launcher.png</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -582,7 +575,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_144x144.png" Configuration="Release" Class="Android_LauncherIcon144">
+                <DeployFile LocalName="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_144x144.png" Configuration="Release" Class="Android_LauncherIcon144">
                     <Platform Name="Android">
                         <RemoteName>ic_launcher.png</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -651,7 +644,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_426x320x.png" Configuration="Release" Class="Android_SplashImage426">
+                <DeployFile LocalName="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\426x320.fw.png" Configuration="Release" Class="Android_SplashImage426">
                     <Platform Name="Android">
                         <RemoteName>splash_image.png</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -666,6 +659,12 @@
                 <DeployFile LocalName="Android\Release\classes.dex" Configuration="Release" Class="AndroidClassesDexFile">
                     <Platform Name="Android">
                         <RemoteName>classes.dex</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="$(BDS)\lib\android\debug\mips\libnative-activity.so" Configuration="Release" Class="AndroidLibnativeMipsFile">
+                    <Platform Name="Android">
+                        <RemoteName>libDesafio100.so</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -697,13 +696,19 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="$(BDS)\lib\android\debug\armeabi\libnative-activity.so" Configuration="Release" Class="AndroidLibnativeArmeabiFile">
+                    <Platform Name="Android">
+                        <RemoteName>libDesafio100.so</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android\Debug\libDesafio100.so" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Android">
                         <RemoteName>libDesafio100.so</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_48x48.png" Configuration="Release" Class="Android_LauncherIcon48">
+                <DeployFile LocalName="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_48x48.png" Configuration="Release" Class="Android_LauncherIcon48">
                     <Platform Name="Android">
                         <RemoteName>ic_launcher.png</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -785,7 +790,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_960x720x.png" Configuration="Release" Class="Android_SplashImage960">
+                <DeployFile LocalName="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\960x720.fw.png" Configuration="Release" Class="Android_SplashImage960">
                     <Platform Name="Android">
                         <RemoteName>splash_image.png</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -815,12 +820,6 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="$(BDS)\lib\android\release\armeabi\libnative-activity.so" Configuration="Release" Class="AndroidLibnativeArmeabiFile">
-                    <Platform Name="Android64">
-                        <RemoteName>libDesafio100.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile LocalName="$(BDS)\Redist\iossimulator\libpcre.dylib" Class="DependencyModule">
                     <Platform Name="iOSSimulator">
                         <Overwrite>true</Overwrite>
@@ -842,7 +841,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_72x72.png" Configuration="Release" Class="Android_LauncherIcon72">
+                <DeployFile LocalName="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_72x72.png" Configuration="Release" Class="Android_LauncherIcon72">
                     <Platform Name="Android">
                         <RemoteName>ic_launcher.png</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -860,7 +859,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_470x320x.png" Configuration="Release" Class="Android_SplashImage470">
+                <DeployFile LocalName="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\470x320.fw.png" Configuration="Release" Class="Android_SplashImage470">
                     <Platform Name="Android">
                         <RemoteName>splash_image.png</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -888,9 +887,15 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="D:\Desenvolvimento\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_640x480x.png" Configuration="Release" Class="Android_SplashImage640">
+                <DeployFile LocalName="..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\640x480.fw.png" Configuration="Release" Class="Android_SplashImage640">
                     <Platform Name="Android">
                         <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Android\Debug\styles-v21.xml" Configuration="Debug" Class="AndroidSplashStylesV21">
+                    <Platform Name="Android">
+                        <RemoteName>styles.xml</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -906,12 +911,6 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="D:\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_36x36.png" Configuration="Debug" Class="Android_LauncherIcon36">
-                    <Platform Name="Android">
-                        <RemoteName>ic_launcher.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="D:\Icones_Pngs_Bmps_Gifs\Mobile\desafio100_144x144.png" Configuration="Debug" Class="Android_LauncherIcon144">
                     <Platform Name="Android">
                         <RemoteName>ic_launcher.png</RemoteName>
                         <Overwrite>true</Overwrite>

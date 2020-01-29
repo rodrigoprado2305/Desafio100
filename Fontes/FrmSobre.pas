@@ -16,7 +16,6 @@ type
     barCabecalho: TToolBar;
     btnVoltar: TSpeedButton;
     Label1: TLabel;
-    Label2: TLabel;
     LogoCircle: TCircle;
     LogoImage: TImage;
     procedure btnVoltarClick(Sender: TObject);
