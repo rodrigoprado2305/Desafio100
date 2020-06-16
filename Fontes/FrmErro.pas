@@ -37,25 +37,23 @@ type
  {$ENDIF}
 
   TFormErro = class(TForm)
-    btnVideo: TButton;
     btnRecomecar: TButton;
     Label1: TLabel;
     lytMeio: TLayout;
     Timer1: TTimer;
-    lblLembrete: TLabel;
     imgErro: TImage;
     rectOkErro: TRectangle;
     procedure FormCreate(Sender: TObject);
     procedure btnRecomecarClick(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
     procedure FormShow(Sender: TObject);
-    procedure btnVideoClick(Sender: TObject);
   private
     { Private declarations }
     //iTempo: integer;
-    LAdViewListener: TMyAdViewListener;
+    {LAdViewListener: TMyAdViewListener;
     FInterStitial: JInterstitialAd;
     procedure anuncioPremiado;
+    procedure videoClick; }
   public
     { Public declarations }
   end;
@@ -69,7 +67,7 @@ uses FrmPrincipal, FrmLogin;
 
 {$R *.fmx}
 
-procedure TFormErro.anuncioPremiado;
+{procedure TFormErro.anuncioPremiado;
 var
   LADRequestBuilder: JAdRequest_Builder;
   LadRequest: JAdRequest;
@@ -87,39 +85,38 @@ begin
     end);
 
   Timer1.Enabled := True;
-end;
+end; }
 
 procedure TFormErro.btnRecomecarClick(Sender: TObject);
 begin
-  FormPrincipal.reset(0);
+  //FormPrincipal.reset(0); //Build 22, remover o anuncio intertitial
+  FormPrincipal.reset(30+1);
   close;
-end;
-
-procedure TFormErro.btnVideoClick(Sender: TObject);
-begin
-  anunciopremiado;
-  btnRecomecar.Enabled := False;
-  btnVideo.Enabled := False;
 end;
 
 procedure TFormErro.Timer1Timer(Sender: TObject);
 begin
   timer1.Enabled := False;
   btnRecomecar.Enabled := True;
-  btnVideo.Enabled := True;
-  FormPrincipal.reset(10+1); //se vc quer voltar duas fase, jogue 3, se for 10, jogue 11
+  //btnVideo.Enabled := True; //Build 22, remover o anuncio intertitial
+  FormPrincipal.reset(10+1);//(10+1); //se vc quer voltar duas fases, jogue 3, se for 10, jogue 11
   close;
 end;
 
-{ TMyAdViewListener }
+{procedure TFormErro.videoClick;
+begin
+  anunciopremiado;
+  btnRecomecar.Enabled := False;
+  //btnVideo.Enabled := False;  //Build 22, remover o anuncio intertitial
+end;   }
 
 procedure TFormErro.FormCreate(Sender: TObject);
 begin
-  FInterStitial := TJInterstitialAd.JavaClass.init(MainActivity);
+  {FInterStitial := TJInterstitialAd.JavaClass.init(MainActivity);
   FInterStitial.setAdUnitId
     //(StringToJString('ca-app-pub-9350000386173480/8402629629')); // Rewarded
     (StringToJString('ca-app-pub-9350000386173480/6705570423')); // InterStitial
-   //(StringToJString('ca-app-pub-9350000386173480~1001141581')); // InterStitial
+   //(StringToJString('ca-app-pub-9350000386173480~1001141581')); // InterStitial }
 end;
 
 procedure TFormErro.FormShow(Sender: TObject);

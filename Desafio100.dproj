@@ -265,11 +265,11 @@
         <CfgParent>Cfg_2</CfgParent>
         <Cfg_2>true</Cfg_2>
         <PF_KeyStore>KeyStore\ChaveDesafio100.keystore</PF_KeyStore>
-        <PF_KeyStorePass>54E50DFE644355A9A301713BD13FE36081DA0549A057979297EE0FB48E3E3CD9DB5DA38CE3371C4DC1B0577DFADEC37ABAF93641045722CE16654589E5A6228C18F0B93AEE8DA890D38B3B46727085CCF7893354</PF_KeyStorePass>
+        <PF_KeyStorePass>851D47C6645855D8A342711DD129E36881D0051BA043979397B40FAB8E363C94DB04A3D7E3401C39C1CC5752FACFC338BAF83613042722C3164B45C2E5BA22DBC90AF35DEE8DA890D38B3B46727085CCF7893354</PF_KeyStorePass>
         <PF_AliasKey>desafio100key</PF_AliasKey>
-        <PF_AliasKeyPass>851D47C65F9307DBCF28E564A4017BF4E4140519A05A97D897C80FA28E363C94DB04A390E34B1C31C1B15774FAD1C339BABA3609043F22FC1657458CE5A722CFC949F31FD555FAFEBFE4AF0D07551D5892013354</PF_AliasKeyPass>
-        <VerInfo_Build>21</VerInfo_Build>
-        <VerInfo_Keys>package=com.rodrigoprado.Desafio100;label=$(MSBuildProjectName);versionCode=21;versionName=1.0.1;persistent=False;restoreAnyVersion=False;installLocation=internalOnly;largeHeap=False;theme=TitleBar;hardwareAccelerated=true;apiKey=</VerInfo_Keys>
+        <PF_AliasKeyPass>851D47C65F935585A304712AD15DE33A81940557A005978797B40FAA8E6D3CD0DB48A3D6E3181C3AC1B85752FAB3C36BBABA361304262290166845ECE5BA2290C95DF35DD544A890D38B3B46727085CCF7893354</PF_AliasKeyPass>
+        <VerInfo_Build>22</VerInfo_Build>
+        <VerInfo_Keys>package=com.rodrigoprado.Desafio100;label=$(MSBuildProjectName);versionCode=22;versionName=1.0.1;persistent=False;restoreAnyVersion=False;installLocation=internalOnly;largeHeap=False;theme=TitleBar;hardwareAccelerated=true;apiKey=</VerInfo_Keys>
         <Android_LauncherIcon36>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_36x36.png</Android_LauncherIcon36>
         <Android_LauncherIcon48>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_48x48.png</Android_LauncherIcon48>
         <Android_LauncherIcon72>..\..\..\..\Icones_Pngs_Bmps_Gifs\Desafio 100\Novo ícone\desafio100_72x72.png</Android_LauncherIcon72>
