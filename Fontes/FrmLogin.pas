@@ -69,19 +69,19 @@ end;
 
 procedure TFormLogin.FormShow(Sender: TObject);
 begin
-    with lvMenu.Items.Add do
-    begin
-      Text := 'Privacidade';
-      Detail := 'Política de ' + Text;
-      ImageIndex := 0;
-    end;
+  with lvMenu.Items.Add do
+  begin
+    Text := 'Privacidade';
+    Detail := 'Política de ' + Text;
+    ImageIndex := 0;
+  end;
 
-    with lvMenu.Items.Add do
-    begin
-      Text := 'Sobre';
-      Detail := 'Informações da versão';
-      ImageIndex := 1;
-    end;
+  with lvMenu.Items.Add do
+  begin
+    Text := 'Sobre';
+    Detail := 'Informações da versão';
+    ImageIndex := 1;
+  end;
 end;
 
 procedure TFormLogin.lvMenuItemClick(const Sender: TObject;
