@@ -1,0 +1,6 @@
+.\assets\internal\erro.mp3
+.\assets\internal\Disciplina02.ini
+.\assets\internal\ok.mp3
+.\assets\internal\Disciplina01.ini
+.\assets\internal\Disciplina04.ini
+.\assets\internal\Disciplina03.ini
